@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PycoDebug"
+version = "0.1.0"
+description = "Python API for the PicoDebugProbe firmware"
+requires-python = ">=3.9"
+dependencies = ["pyserial>=3.5"]
+
+[tool.setuptools]
+packages = ["PycoDebug"]
